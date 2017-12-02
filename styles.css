@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background-color: yellow;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 20px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+span {
+  font-family: sans-serif;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 35px;
+}
+
+td {
+    width: 35px;
+    background-color: white;
+}
+
+input[type=number] {
+    width: 5em;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+input[type=submit] {
+  padding: 5px;
+  margin: 5px;
+}
+
+// Adjust for smaller screens
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 40px;
+  }
+}
