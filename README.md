@@ -2,15 +2,16 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Description](#instructions)
 * [Contributing](#contributing)
 
-## Instructions
+## Description
 
-To get started, open `designs.js` and start building out the app's functionality.
+This is a web app that allows users to make BEAUTIFUL art by clicking squares in a grid, which they can size.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+I created this as a part of the Udacity Front-End Web Development Nanodegree program.  
+
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Not accepting contributions at this time.
