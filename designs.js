@@ -1,9 +1,9 @@
 $(function() {
   //Submit button clicked --> call makeGrid() function
-  const $gridSubmit = $('#grid-size-submit'); // cache jQuery object for submit button
-  let $gridTable = $('#pixel_canvas');
+  const $sizeForm = $('#sizePicker'); // cache jQuery object for submit button
+  const $gridTable = $('#pixel_canvas');
 
-  $gridSubmit.click(function makeGrid(e) {
+  $sizeForm.submit(function makeGrid(e) {
     //get the values from grid height and grid width inputs
     e.preventDefault();
     const yBlocks = $('#input_height').val();
